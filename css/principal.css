@@ -1,0 +1,356 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: "Typo formal";
+	src: url(/utileria/Philosopher-Bold.ttf);
+}
+ @font-face{
+	font-family: "Typo regular";
+	src: url(/utileria/Philosopher-Regular.ttf);
+}
+@font-face{
+	font-family: "Typo regular_italic";
+	src: url(/utileria/Philosopher-Italic.ttf);
+}
+
+p,b{
+	font-family: "Typo regular";
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	font-family: "Typo formal";
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background-image: url(/imagenes/Fondo.jpg);
+}
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar{
+	background-image: linear-gradient(95deg, #ffffff 10%, #bddd7d 16.67%, #a3f155 33.33%, #60eb2a 50%, #38ec5f 66.67%, #3bec35 83.33%, #08ec39cb 100%);
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin-top: 15px;
+	height: 90px ;
+}
+.img{
+	position: absolute;
+	top: 10px;
+	left: 0px;
+}
+
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #75e74098;
+	color: #fff;
+	text-decoration: none;
+}
+/**/
+/* * ============================== */
+/* * ===== CONTENEDOR IMAGEN ====== */
+/* * ============================== */
+
+.contenedor-imagen {
+	height: 50vh;
+	margin-top: 15px;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #525151;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+
+/* * ============================== */
+/* * ============ ASIDE =========== */
+/* * ============================== */
+
+aside {
+	min-width: 30%;
+	margin: 40px 20px 20px 0;
+	height: 100%;
+	background: #154360;
+	padding: 20px;
+	border-radius: 3px;
+}
+
+aside .titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #f2f2f2;
+}
+
+aside .indice a {
+	display: block;
+	margin-bottom: 10px;
+	color: #FFCD48;
+}
+
+/* * ============================== */
+/* * ========== FOOTER ============ */
+/* * ============================== */
+.naptha_container0932014_0707{
+	display: none;
+}
+
+footer{
+	height: 80px;
+	width: 100%;
+	margin-top: 150px;
+	background-color: rgba(207, 236, 188, 0.747);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer p{
+	color: #000;
+	font-family: "Typo regular_italic";
+}
+footer img{
+	height: 50px;
+	width: 150px;
+}
+.ubicacion{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 0;
+}
+.horarios{
+	width: 30%;
+	position: relative;
+	left: 50px;
+}
+.img_ubicacion{
+	height: 30%;
+	width: 30%;
+	display: flex;
+	margin-right: auto;
+}
+.img_ubicacion img{
+	max-width: 100%;
+    max-height: 100%;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	right: 0;
+}
+.icon_redes{
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+	cursor: pointer;
+}
+.icon_redes img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* * ============================== */
+/* * ========== Menu ============ */
+/* * ============================== */
+ul, ol{
+	list-style: none;
+}
+.nav{
+	position: relative;
+	top: 10px;
+}
+.nav li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+.nav > li{
+	float: left;
+	margin: 0 10px 0 10px;
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 150px;
+}
+.nav li:hover > ul{
+	display: block;
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li ul li ul{
+	right: -150px;
+	top:0px;
+}
+/* * ============================== */
+/* * ========== BUSCADOR ============ */
+/* * ============================== */
+.contenedor {
+	width: 400px;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+.img{
+	height: auto;
+	width: 100px;
+	display: flex;
+	justify-content:left;
+}
+.img img{
+	height: 60px;
+	width: 150px;
+	margin: 3px auto;
+}
+
+.search{
+	height: 35px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 30px;
+	margin: 40px 0 0 0;
+	position:relative;
+	top: -20px;
+}
+.display{
+	height: 35px;
+	width: 90%;	
+	text-align: center;
+	border-radius: 30px;
+	font-family: 'Times New Roman';
+	font-size: x-large;
+	border: 0;
+	outline: none;
+}
+
+.lupa{
+	position: relative;
+	right: 80px;
+	top: 20px;
+	left: -40px;
+}
+.lupa img{
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	margin: 1px 15px 0 0;	
+}
+.lupa :hover{
+	cursor: pointer;
+}
+/* * ============================== */
+/* * ======    Registro   ========= */
+/* * ============================== */
+.registro{
+	height: 20px;
+	width: 40px;
+	font-size: 13px;
+}
+.registro a{
+	height: 20px;
+	width: 90px;
+	position: relative;
+	top: 15px;
+	margin: 0;
+	padding: 0;
+}
+.subindice{
+	background-color: #bde6946c;
+	z-index: 1;
+}
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media (max-width: 1024px){
+	a{
+		font-size: 13px;
+	}
+	p{
+		font-size: 10px;
+	}
+}
+@media (max-width: 768px){
+	a{
+		font-size: 10px;
+	}
+	p{
+		font-size: 8px;
+	}
+}
+@media (max-width:460px){
+	.nav{
+        position: fixed;
+        left: -500%;
+    }
+	.calle > p{
+		font-size: 0;
+	}
+	.horarios{
+		margin-right: 200px;
+	}
+}
+@media (max-width: 768px){
+	p{
+		font-size: 10px;
+	}
+}
+@media (max-width: 580px){
+	.img{
+		display: none;
+	}
+}
