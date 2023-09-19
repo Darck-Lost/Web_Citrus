@@ -6,15 +6,15 @@
 
 @font-face{
 	font-family: "Typo formal";
-	src: url(/utileria/Philosopher-Bold.ttf);
+	src: url(../assets/fonts/Philosopher-Bold.ttf);
 }
  @font-face{
 	font-family: "Typo regular";
-	src: url(/utileria/Philosopher-Regular.ttf);
+	src: url(../assets/fonts/Philosopher-Regular.ttf);
 }
 @font-face{
 	font-family: "Typo regular_italic";
-	src: url(/utileria/Philosopher-Italic.ttf);
+	src: url(../assets/fonts/Philosopher-Italic.ttf);
 }
 
 p,b{
@@ -45,7 +45,6 @@ body {
 	display: flex;
 	justify-content: center;
 	position: relative;
-	margin-top: 15px;
 	height: 90px ;
 }
 .img{
@@ -161,7 +160,7 @@ footer p{
 }
 footer img{
 	height: 50px;
-	width: 150px;
+	width: 90px;
 }
 .ubicacion{
 	width: 30%;
@@ -175,6 +174,8 @@ footer img{
 	width: 30%;
 	position: relative;
 	left: 50px;
+	align-items: center;
+	justify-content: center;
 }
 .img_ubicacion{
 	height: 30%;

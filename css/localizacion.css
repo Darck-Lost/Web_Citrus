@@ -43,15 +43,3 @@
     font-size: x-large;
 }
 
-
-
-.gps{
-    position: relative;
-    left: 100px;
-    height: 600px;
-    width: 700px;
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
-    background:url(/imagenes/Mapa.JPG);
-    background-size: cover;
-}
