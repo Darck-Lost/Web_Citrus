@@ -1,13 +1,13 @@
 <?php require('./header.php') ?>
 <body>
     <div class="body">
-            <div class="card">
-                <div class="face front">
-                    <img src="../assets/Decorativas/Caladium.jpg" alt="">
-                    <h3>Caladium</h3>
-             </div>
+        <div class="card">
+            <div class="face front">
+                <img src="../assets/Decorativas/Caladium.jpg" alt="">
+                <h3>Caladium</h3>
+            </div>
             <div class="face back">
-                   <h3>Caladium</h3>
+                <h3>Caladium</h3>
                 <p>Conocida como Oreja de Elefante, es una planta de atractivos colores sobre una base verde combinan una gran cantidad de patrones.</p>
                 <div class="link">
                     <a href="#">Details</a>
